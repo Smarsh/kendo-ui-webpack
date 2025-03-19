@@ -1,0 +1,15 @@
+identifier: kendo-ui-webpack
+title: kendo-ui-webpack
+blueprint: service
+team: ["Professional Archive PCweb"]
+properties:                     
+  description: "(auto-generated port.yml, needs correction)"                    
+  customer_facing: false
+  monitor_dashboards: ["https://app.datadoghq.com/dashboard/z6v-8ze-p3b/proarchive"]
+  logs: ["https://kibana.us-east-1.aws.smarsh.cloud/app/discover"]
+  vault: ["https://vault.1cp.us-east-1.aws.enklavo.com:8200"]        
+  documentation: ["https://smarsh.atlassian.net/wiki/spaces/P1/overview"]
+  repo_type: library
+relations:
+    product: "professional_archive"
+    code_owners: ["shelly.liabraaten@smarsh.com"]
