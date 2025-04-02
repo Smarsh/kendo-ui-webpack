@@ -12,4 +12,4 @@ properties:
   repo_type: library
 relations:
     product: "professional_archive"
-    code_owners: ["shelly.liabraaten@smarsh.com"]
+    code_owners: ["Ben.Simmons@smarsh.com", "Brittnee.Nunn@smarsh.com", "Matthew.Pietz@Smarsh.com", "McKella.Laurence@smarsh.com", "chris.udompanyanan@smarsh.com", "Justin.Parker@smarsh.com"]
