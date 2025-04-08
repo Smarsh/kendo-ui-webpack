@@ -3,13 +3,13 @@ title: kendo-ui-webpack
 blueprint: service
 team: ["Professional Archive PCweb"]
 properties:                     
-  description: "(auto-generated port.yml, needs correction)"                    
+  description: "CommonJS proxy for kendo-ui-core"                    
   customer_facing: false
-  monitor_dashboards: ["https://app.datadoghq.com/dashboard/z6v-8ze-p3b/proarchive"]
-  logs: ["https://kibana.us-east-1.aws.smarsh.cloud/app/discover"]
-  vault: ["https://vault.1cp.us-east-1.aws.enklavo.com:8200"]        
-  documentation: ["https://smarsh.atlassian.net/wiki/spaces/P1/overview"]
+  monitor_dashboards: ["https://app.datadoghq.com/dashboard/red-mq8-s2v/pro-archive-platform-ui-health"]
+  logs: ["https://splunk.smarshinc.com/en-US/app/search/search?earliest=-15m&latest=now&q=search%20index%3D%22smc_index%22&sid=1744042227.95636&display.page.search.mode=smart&dispatch.sample_ratio=1"]
+  vault: ["https://smarsh1.1password.com"]
+  documentation: ["https://smarsh.atlassian.net/wiki/spaces/DEV/pages/1291863/Pro+Archive+UI+Team"]
   repo_type: library
 relations:
     product: "professional_archive"
-    code_owners: ["Ben.Simmons@smarsh.com", "Brittnee.Nunn@smarsh.com", "Matthew.Pietz@Smarsh.com", "McKella.Laurence@smarsh.com", "chris.udompanyanan@smarsh.com", "Justin.Parker@smarsh.com"]
+    code_owners: ["ben.simmons@smarsh.com", "brittnee.nunn@smarsh.com", "matthew.pietz@smarsh.com", "mckella.laurence@smarsh.com", "shelly.liabraaten@smarsh.com", "justin.parker@smarsh.com"]
