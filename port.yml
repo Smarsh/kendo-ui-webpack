@@ -2,8 +2,8 @@ identifier: kendo-ui-webpack
 title: kendo-ui-webpack
 blueprint: service
 team: ["Professional Archive PCweb"]
-properties:                     
-  description: "CommonJS proxy for kendo-ui-core"                    
+properties:
+  description: "CommonJS proxy for kendo-ui-core" 
   customer_facing: false
   monitor_dashboards: ["https://app.datadoghq.com/dashboard/red-mq8-s2v/pro-archive-platform-ui-health"]
   logs: ["https://splunk.smarshinc.com/en-US/app/search/search?earliest=-15m&latest=now&q=search%20index%3D%22smc_index%22&sid=1744042227.95636&display.page.search.mode=smart&dispatch.sample_ratio=1"]
